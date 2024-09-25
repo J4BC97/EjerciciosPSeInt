@@ -2,7 +2,7 @@ Algoritmo  PlanificarPresupuesto
     Definir presupuesto, gastos, totalGastado, registroGastos Como Real
     contadorGastos <- 0
     totalGastado <- 0
-	gastos <- 0
+	gastos <- 1
 	
     Escribir "Introduce tu presupuesto mensual: "
     Leer presupuesto
