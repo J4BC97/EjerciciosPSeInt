@@ -1,6 +1,7 @@
 Algoritmo Calculo_de_Promedio
 	
-	Definir numero1, numero2, numero3, suma, promedio Como Real
+	Definir numero1, numero2, numero3 Como Entero
+	Definir promedio Como Real
 	
 	Escribir "Algoritmo para calcular un promedio"
 	
@@ -11,8 +12,7 @@ Algoritmo Calculo_de_Promedio
 	Escribir "Ingresar el tercer numero:"
 	Leer numero3
 	
-	suma<-numero1 + numero2 + numero3
-	promedio<-suma/3
+	promedio <- (numero1 + numero2 + numero3)/3
 	
 	Escribir "El promedio de estos 3 digitos es:", promedio
 	
